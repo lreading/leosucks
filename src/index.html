@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Leo Sucks</title>
+    </head>
+    <body style="text-align:center;">
+        <h2>Leo Sucks</h2>
+        <h1 id="what_does_leo_suck"></h1>
+
+        <script type="text/javascript">
+            var thingsLeoSucks = [
+                'Ian\'s Mom',
+                'Dog Doodoo',
+                'Donkey Dong',
+                'The Big One',
+                'At Life',
+                'Eggs',
+                'At Everything',
+                'At Programming',
+                'At Riding a Dirt Bike',
+                'Everything',
+                'At Security',
+                'At Driving',
+                'At Playing Video Games',
+                'At Communicating',
+                'At Being Handsome',
+                'At Growing Hair',
+                'At Growing a Beard',
+                'At Being Healthy',
+                'At Being Nice',
+                'At Using Linux',
+                'At Reading Above a 2nd Grade Level',
+                'At Speeling',
+                'At Exercising'
+            ];
+
+            var getRandomThingLeoSucks = function () {
+                return thingsLeoSucks[Math.floor(Math.random() * thingsLeoSucks.length)];
+            };
+
+            document.getElementById('what_does_leo_suck').innerText = getRandomThingLeoSucks();
+        </script>
+    </body>
+</html>
